@@ -121,7 +121,7 @@ transform: rotateZ(35deg) scaleX(0.9) scaleY(1.6);
 }
 
 /* Mail Icon */
-/*
+
 .notification-icon-mail {
 position: absolute;
 	top: 0;
@@ -190,7 +190,7 @@ transform: rotateZ(45deg);
 }
 
 /* Twitter Icon */
-/*
+
 .notification-icon-twitter {
 	position: absolute;
 	top: 0;
@@ -233,7 +233,7 @@ background : #fff;
 }
 
 /* Facebook Icon */
-/*
+
 .notification-icon-facebook {
 	position: absolute;
 	top: 0;
@@ -276,7 +276,7 @@ background: linear-gradient(#337cca 0%, #2159a2 100%);
 }
 
 /* Calendar Icon */
-/*
+
 .notification-icon-calendar {
 	position: absolute;
 	top: 0;
