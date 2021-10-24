@@ -1,0 +1,191 @@
+.main-container {
+	max-width: 885px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px auto 50px auto;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.icon-container {
+	margin: 20px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: #ececec;
+	position: relative;
+}
+
+/* messenger */
+.messenger {
+	background: rgb(240, 240, 240);
+}
+
+.messenger-circle {
+  position: relative;
+  top: -40px;
+  left: 30px;
+  width: 150px;
+  height: 120px;
+	border-radius: 50%;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #2394FE, transparent 70%),
+		radial-gradient(circle farthest-corner at 30% 90%, #FD656C, transparent 50%),
+		radial-gradient(circle farthest-corner at 100% 0, #FD656C, transparent 50%),
+		radial-gradient(circle farthest-corner at 100% 100%, #893dc2, transparent),
+		linear-gradient(#FD656C, #bc318f 30%, #893dc2 50%, #2394FE 70%, #2394FE 100%);
+}
+
+.messenger-triangle {
+  position: relative;
+  left: -110px;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #3b92e2 transparent transparent transparent;
+  transform: rotateZ(25deg) scaleX(0.65) scaleY(0.8);
+}
+
+.lightning {
+	position: relative;
+  top: 60px;
+  left: 70px;
+	width: 30px;
+	height: 12px;
+	background: #fff;
+	transform:  translate(-50%, -50%) rotate(45deg);              
+}
+	
+.lightning:before, .lightning:after {
+	content: '';
+	position: relative;
+	border-style: solid;
+	border-width: 50px 10px 0 0;
+	border-color: #fff transparent transparent transparent;
+}
+.lightning:before {
+  top: 50px;
+  right: 5px;
+}
+	
+.lightning:after {
+  content: '';
+  top: -74px;
+	right: -25px;
+	bottom: 0;
+	border-width: 0 0 50px 10px;
+	border-color: transparent transparent #fff transparent;
+}
+
+/* Messages Icon */
+.messages {
+	background: linear-gradient(#66ca3b 0%, #07bf38 100%);
+}
+
+.message-circle {
+  position: relative;
+  top: -40px;
+  left: 30px;
+  width: 150px;
+  height: 120px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.message-triangle {
+  position: relative;
+  left: -120px;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  transform: rotateZ(35deg) scaleX(0.65) scaleY(1);
+}
+
+
+/* Instagram */
+.instagram {
+	background: 
+		radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+		radial-gradient(circle farthest-corner at 0 -25%, #5258cf, transparent 50%),
+		radial-gradient(circle farthest-corner at 100% 0, #893dc2, transparent 50%),
+		radial-gradient(circle farthest-corner at 100% 100%, #d9317a, transparent),
+		linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.instagram-borderRectangle {
+	width: 125px;
+	height: 125px;
+	border-radius: 25%;
+	border: 10px solid white;
+	margin: auto;
+	position: relative;
+		
+}
+.instagram-lens {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 10px solid white;
+	margin: 30px auto 0 auto;
+	z-index:0;
+}
+.instagram-flash {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	border: 8px solid white;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+/* PayPal */
+.paypal {
+	background: linear-gradient(-45deg, #0098DA, #002A6E);
+	position: relative;
+
+}
+.letterCircle {
+	width: 47.5px;
+	height: 75px;
+	border-radius: 0 50% 50% 0;
+	background-color: white;
+	transform: skewx(-10deg);
+	position:absolute;
+	top:40px;
+	left: 93px;
+}
+.letterCircle:after {
+  content:"";
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  transform: translate(36.6px, 35px);
+  border-radius: 0 50% 50% 0;
+  background-color: rgba(173, 206, 227, .7);
+}
+	
+.letterRectangle {
+	width: 40px;
+	height: 120px;
+	background-color: white;
+	border-radius: 5% 0 5% 5%;
+	transform: skew(-10deg);
+	position:absolute;
+	top: 40px;
+	left:50px;
+}
+.letterRectangle:after {
+  content:"";
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  transform: translate(40px, 35px);
+  border-radius: 5% 0 5% 5%;
+  background-color: rgba(173, 206, 227, .7);
+}
+
+
