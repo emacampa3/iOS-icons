@@ -24,52 +24,6 @@
 	overflow: hidden;
 }
 
-/* Mail */
-.mail {
-	background: linear-gradient(#1a51f0 0%, #02c9df 100%); 
-}
-
-.mail:before, .mail:after {
-	position: relative;
-	content: '';
-	border-width: 3px;
-	border-style: solid; 
-}
-
-.mail:before {
-	border-color: transparent transparent transparent white; 
-}
-
-.mail:after {
-	border-color: transparent white transparent transparent; 
-}
-
-.mail .inner {
-	position: relative; 
-}
-
-.mail .inner.upper {
-	width: 6px;
-	height: 6px;
-	top: -50%;
-	left: 22%;
-	z-index: 2;
-	background: #fff;
-	border-radius: 1px;
-	box-shadow: 0 0 0 0.5px #1ca4f7;
-	transform: rotateZ(45deg); 
-}
-
-.mail .inner.lower {
-	width: 8px;
-	height: 8px;
-	top: 70%;
-	z-index: 1;
-	background: #fff;
-	border-radius: 1px;
-	transform: rotateZ(45deg); 
-}
-
 /* Calendar */
 .calendar {
 	background: #ececec;
@@ -119,11 +73,12 @@
 	height: 150px;
 	top: 15%;
 	left: 50%;
-	border: 30px solid #eee;
+	border: 30px solid #fff;
 	border-radius: 40px;
 }
+
 .facebook:after {
-	background: #eee;
+	background: #fff;
 	content: "";
 	position: absolute;
 	top: 45%;
