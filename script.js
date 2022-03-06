@@ -1,3 +1,4 @@
+/* Calendar Icon */
 const calendarWeek = document.getElementById("calendar-day-week"),
 	calendarDay = document.getElementById("calendar-day")
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;500&display=swap');
+
 .main-container {
 	max-width: 885px;
 	display: flex;
@@ -19,6 +21,7 @@
 	align-items: flex-end;
 	background-color: #ececec;
 	position: relative;
+	overflow: hidden;
 }
 
 /* Mail */
@@ -74,57 +77,23 @@
 
 #calendar-day-week {
 	position: absolute;
-	top: 25%;
+	top: 18%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #EC7063;
-	font-size: 3px;
-	font-weight:bold;
+	color: #e2372e;
+	font-size: 30px;
+	font-weight: 500;
 	font-family: 'Heebo', sans-serif;
 }
 
 #calendar-day {
 	position: absolute;
-	top: 66%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 8px;
+	font-size: 120px;
 	font-family: 'Heebo', sans-serif;
 	font-weight: 200;
-}
-
-.clock-date {
-	color: #fff;
-	font-family: 'Heebo', sans-serif;
-	font-weight: 100;
-	font-size: 4px;
-	position: absolute;
-	z-index: 2;
-}
-
-.clock-text {
-	display: flex;
-	justify-content: center;
-	letter-spacing: 1px;
-}
-
-.clock-date {
-	font-weight: 100;
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 2;
-	font-size: 15px;
-	white-space: nowrap;
-}
-
-#date-day-week {
-	margin-right: 2px;
-}
-
-#date-day {
-	margin-right: 2px;
 }
 
 /* Facebook */
@@ -171,30 +140,29 @@
 .twitter-icon {
 	content: '';
 	position: relative;
-	height: 5px;
-	width: 5px;
-	margin-top:-5px;
+	height: 10px;
+	width: 10px;
 	border-radius: 50%;
-	background-color: #1CA1F1;
+	background-color: #f0f0f0;
 	box-shadow:
-			1.1px -6.05px 0 1.85px #fff,
-			1.0px -2.9px 0 -0.15px #1CA1F1,
-			1.975px -5.35px 0 1.84px #fff,
-			1.2px -2.2px 0 -0.125px #1CA1F1,
-			-2.1px -6.7px 0 4.75px #fff,
-			-5px -0.9px 0 0.07px #1CA1F1,
-			-7.2px -1.35px 0 0.07px #fff,
-			-5px 1px 0 0.04px #1CA1F1,
-			-6.8px 1.1px 0 0.07px #fff,
-			-4.3px 2.8px 0 0.07px #1CA1F1,
-			-8.3px 1.175px 0 2.775px #fff,
-			-8.275px -6.575px 0 2.775px #fff,
-			-4.25px 0.95px 0 4.25px #1CA1F1;
+		35px -125px 0 25px #1CA1F1,
+		0px -190px 0 70px #f0f0f0,
+		-25px -135px 0 40px #1CA1F1,
+		-55px -120px 0 15px #f0f0f0,
+		-22px -110px 0 40px #1CA1F1,
+		-50px -85px 0 10px #f0f0f0,
+		-30px -83px 0 25px #1CA1F1,
+		57px -170px 0 25px #f0f0f0,
+		58px -149px 0 12px #1CA1F1,
+		60px -163px 0 25px #f0f0f0,
+		58px -140px 0 10px #1CA1F1,
+		-75px -120px 0 80px #f0f0f0,
+		-15px -100px 0 74px #1CA1F1;
 }
 
 /* messenger */
 .messenger {
-	background: rgb(240, 240, 240);
+	background: #f0f0f0;
 }
 
 .messenger-circle {
