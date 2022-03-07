@@ -633,3 +633,47 @@
 	transform: rotate(45deg);
 	transform-origin: 100% 100%
 }
+
+/* Notes */
+.header-notes {
+	position: absolute;
+	top: 0;
+	height: 55px;
+	width: 200px;
+	background: linear-gradient(#d0a20e, #FAD762);
+	box-shadow: 0 0 10px 1px #686868;
+}
+
+.dotted-line {
+	position: absolute;
+	top: 62px;
+  border: none;
+  border-top: 4px dotted #838383;
+  height: 1px;
+  width: 200px;
+}
+
+.line-1-notes {
+	position: absolute;
+	top: 95px;
+	height: 1px;
+	width: 200px;
+	background-color: #a5a5a5;
+}
+
+.line-2-notes {
+	position: absolute;
+	top: 135px;
+	height: 1px;
+	width: 200px;
+	background-color: #a5a5a5;
+}
+
+.line-3-notes {
+	position: absolute;
+	top: 175px;
+	height: 1px;
+	width: 200px;
+	background-color: #a5a5a5;
+}
+
