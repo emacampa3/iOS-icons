@@ -713,3 +713,61 @@
 	background-color: #0bc53c;
 	z-index: 100;
 }
+
+/* Books */
+.books {
+	background: linear-gradient(#fd9319 0%, #df7700 100%);
+}
+
+.page {
+	position: absolute;
+	top: 50%;
+	width: 55px;
+	height: 90px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.page.first {
+	left: 35%;
+	transform: translate(-50%, -50%);
+}
+
+.page.second {
+	left: 65%;
+	transform: translate(-50%, -50%);
+}
+
+.upper-circle {
+	position: absolute;
+	top: 22%;
+	width: 55px;
+	height: 35px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.upper-circle.first {
+	left: 42px;
+}
+
+.upper-circle.second {
+	left: 102px;
+}
+
+.lower-circle {
+	position: absolute;
+	top: 68%;
+	width: 55px;
+	height: 35px;
+	background-color: #e97f07;
+	border-radius: 50%;
+}
+
+.lower-circle.first {
+	left: 42px;
+}
+
+.lower-circle.second {
+	left: 102px;
+}
