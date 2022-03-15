@@ -1015,12 +1015,63 @@
 	top: 58px;
 	right: 93%;
 	height: 5px;
-	transform: rotate(274deg);
+	transform: rotate(278deg);
 }
 
 .safari-line:nth-child(32) {
-	top: 16px;
-	right: calc(78% - 9px);
-	transform: rotate(320deg);
+	top: 14px;
+	height: 5px;
+	right: calc(78% - 12px);
+	transform: rotate(325deg);
 }
 
+
+
+
+.safari-line:nth-child(33) {
+	top: 8px;
+	left: calc(50% + 19px);
+	transform: rotate(13deg);
+}
+
+.safari-line:nth-child(34) {
+	top: 38px;
+	left: calc(78% + 13px);
+	transform: rotate(58deg);
+}
+
+.safari-line:nth-child(35) {
+	top: 94px;
+	left: calc(91% + 1px);
+	transform: rotate(102deg);
+}
+
+.safari-line:nth-child(36) {
+	top: 136px;
+	left: calc(82% - 17px);
+	transform: rotate(146deg);
+}
+
+.safari-line:nth-child(37) {
+	bottom: 7px;
+	left: calc(50% - 20px);
+	transform: rotate(192deg);
+}
+
+.safari-line:nth-child(38) {
+	top: 103px;
+	right: calc(91% - 1px);
+	transform: rotate(238deg);
+}
+
+.safari-line:nth-child(39) {
+	top: 50px;
+	right: 90%;
+	transform: rotate(280deg);
+}
+
+.safari-line:nth-child(40) {
+	top: 11px;
+	right: calc(78% - 18px);
+	transform: rotate(328deg);
+}
