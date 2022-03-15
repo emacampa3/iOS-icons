@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;500&display=swap');
 
+body {
+  background-color: #20292c;
+}
+
 .main-container {
 	max-width: 885px;
 	display: flex;
