@@ -860,6 +860,40 @@ body {
 	transform-origin: 100% 100%
 }
 
+/* Home */
+.home {
+	background-color: #fff;
+}
+
+.house {
+	position: relative;
+	top: -10px;
+	left: -3%;
+}
+
+.inside-house-one {
+	position: absolute;
+	top: 83%;
+}
+
+.inside-house-two {
+	position: absolute;
+	top: 79%;
+	left: 59px;
+}
+
+.inside-house-three {
+	position: absolute;
+	top: 74%;
+	left: 68px;
+}
+
+.inside-house-four {
+	position: absolute;
+	top: 68%;
+	left: 78px;
+}
+
 /* Notes */
 .header-notes {
 	position: absolute;
