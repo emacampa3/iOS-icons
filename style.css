@@ -202,6 +202,54 @@ body {
 	top: 150px;
 }
 
+/* Find My */
+.find {
+	background-color: #fff;
+}
+
+.green-circle {
+	position: relative;
+	top: 25%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	background-color: #33d15d;
+}
+
+.white-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 45%;
+	height: 45%;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	background-color: #45df6e;
+}
+
+.blue-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 14%;
+	height: 14%;
+	border-radius: 50%;
+	border: 7px solid #fff;
+	background-color: #0f83ff;
+	z-index: 10;
+}
+
+.blue-triangle {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: 9;
+}
+
 /* Weather */
 .weather {
   background: linear-gradient(#1055B1, #39a3ee 80%);
