@@ -28,6 +28,90 @@ body {
 	overflow: hidden;
 }
 
+/* Calculator */
+.calculator {
+	background-color: #c2c2c2;
+}
+
+.calc-body {
+	position: relative;
+	top: -35px;
+	width: 45%;
+	height: 65%;
+	background-color: #222;
+	border-radius: 10px;
+}
+
+.calc-screen {
+	position: absolute;
+	top: 44px;
+	width: 35%;
+	height: 15%;
+	background-color: #666666;
+	border-radius:4px;
+	z-index: 10;
+}
+
+.calc-button {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #d1d1d1;
+}
+
+.calc-button.first {
+	position: absolute;
+	top: 42%;
+	left: 33%;
+}
+
+.calc-button.second {
+	position: absolute;
+	top: 42%;
+	left: 46%;
+}
+
+.calc-button.third {
+	position: absolute;
+	top: 42%;
+	left: 59%;
+	background-color: #e1922b;
+}
+
+.calc-button.fourth {
+	position: absolute;
+	top: 56%;
+	left: 33%;
+}
+
+.calc-button.fifth {
+	position: absolute;
+	top: 56%;
+	left: 46%;
+}
+
+.calc-button.sixth {
+	position: absolute;
+	top: 56%;
+	left: 59%;
+	background-color: #e1922b;
+}
+
+.calc-button.seventh {
+	position: absolute;
+	top: 69%;
+	left: 33%;
+	width: 45px;
+	border-radius: 10px;
+}
+
+.calc-button.eighth {
+	position: absolute;
+	top: 69%;
+	left: 59%;
+	background-color: #e1922b;
+}
+
 /* Weather */
 .weather {
   background: linear-gradient(#1055B1, #39a3ee 80%);
