@@ -112,6 +112,96 @@ body {
 	background-color: #e1922b;
 }
 
+/* Reminders */
+.reminders {
+	background-color: #fff;
+}
+
+.dot {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #d1d1d1;
+	z-index: 10;
+}
+
+.dot.one {
+	position: absolute;
+	top: 40px;
+	left: 15%;
+	background-color: #0f83ff;
+}
+
+.circle.one {
+	position: absolute;
+	top: 35px;
+	left: 25px;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 3px #0f83ff;
+	z-index: 9;
+}
+
+.dot.two {
+	position: absolute;
+	top: 90px;
+	left: 15%;
+	background-color: #e65151;
+}
+
+.circle.two {
+	position: absolute;
+	top: 85px;
+	left: 25px;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 3px #e65151;
+	z-index: 9;
+}
+
+.dot.three {
+	position: absolute;
+	top: 140px;
+	left: 15%;
+	background-color: #ffc941;
+}
+
+.circle.three {
+	position: absolute;
+	top: 135px;
+	left: 25px;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 3px #ffc941;
+	z-index: 9;
+}
+
+.lines {
+	position: absolute;
+	left: 35%;
+	width: 100px;
+	height: 2px;
+	background-color: rgb(209, 209, 209);
+}
+
+.lines.one {
+	top: 50px;
+}
+
+.lines.two {
+	top: 100px;
+}
+
+.lines.three {
+	top: 150px;
+}
+
 /* Weather */
 .weather {
   background: linear-gradient(#1055B1, #39a3ee 80%);
