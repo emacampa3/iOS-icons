@@ -5,7 +5,7 @@ body {
 }
 
 .main-container {
-	max-width: 885px;
+	max-width: 1400px;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 20px auto 50px auto;
@@ -16,7 +16,7 @@ body {
 }
 
 .icon-container {
-	margin: 20px auto;
+	margin: 20px 10px;
 	width: 200px;
 	height: 200px;
 	border-radius: 20%;
@@ -1034,31 +1034,54 @@ body {
 
 .heart {
 	position: relative;
-	margin: 30px auto;
-	left: 100px;
+	height: 73px;
+  width: 84px;
+  position: absolute;
+  top: 16%;
+  right: 15%;
 }
 
-.heart:before,
-.heart:after {
-	position: absolute;
-	content: "";
-	width: 40px;
-	height: 60px;
-	background: linear-gradient(180deg, #FD5EA6, #FD3E56);
-	border-radius: 50px 50px 0 0
+.heart-left, .heart-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
 }
 
-.heart:before {
-	left: 40px;
-	transform: rotate(-45deg);
-	transform-origin: 0 100%
+.heart-left:before, .heart-left:after, .heart-right:before, .heart-right:after {
+  content: "";
+  display: block;
 }
 
-.heart:after {
-	left: 0;
-	transform: rotate(45deg);
-	transform-origin: 100% 100%
+.heart .heart-left:before, .heart .heart-right:before {
+  width: 46px;
+  height: 46px;
+  background-image: linear-gradient(to bottom, #ff51a2, #ff3f72 50%);
+  border-radius: 50%;
 }
+
+.heart .heart-left:after, .heart .heart-right:after {
+  width: 113px;
+  height: 66px;
+  background-image: linear-gradient(to bottom, #ff3f72, #ff1708 75%);
+  position: absolute;
+  top: 30%;
+}
+
+.heart .heart-left:after {
+  border-radius: 0 0 0 100%/0 0 0 100%;
+}
+
+.heart .heart-right:before {
+  position: absolute;
+  right: 0;
+}
+
+.heart .heart-right:after {
+  border-radius: 0 0 100% 0/0 0 100% 0;
+  right: 0;
+} 
 
 /* Home */
 .home {
