@@ -881,25 +881,92 @@ body {
   background: linear-gradient(#00C4F9, #0076F0 70%);
 }
 
-.app-store-rectangle {
+.bar {
+  position: absolute;
+  border-radius: 8px;
+}
+
+.bar:first-child {
+  height: 70%;
+  width: 9%;
+  left: 20%;
+  bottom: 20%;
+	display: flex;
+	flex-direction: column;
+  transform: rotate(30deg);
+  transform-origin: 50% 96%;
+}
+
+.bar:first-child:before {
+ 	content: "";
+  display: block;
   background-color: #fff;
-  width: 15px;
-  height: 135px;
-  border-radius: 40px;
+  height: 80%;
+  margin-bottom: 13px;
+  border-radius: 8px 8px 0 0;
 }
 
-.app-store-rectangle.left {
-  transform: translate(75px, -30px) rotate(27.5deg);
+.bar:first-child:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 25%;
+  border-radius: 16px 0 8px 8px/12px 0 8px 8px;
 }
 
-.app-store-rectangle.middle {
-	height: 120px;
-  transform: rotate(90deg);
-  margin: 10px auto;
+.bar:nth-child(2) {
+  width: 70%;
+  height: 9%;
+  left: 15%;
+  bottom: 34%;
+  display: flex;
+  flex-direction: row;
 }
 
-.app-store-rectangle.right {
-  transform: translate(-75px, -30px) rotate(-27.5deg);
+.bar:nth-child(2):before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 64%;
+  border-radius: 8px 12px 0 8px/8px 12px 4px 8px;
+}
+
+.bar:nth-child(2):after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 23%;
+  margin-left: 13%;
+  border-radius: 0 8px 8px 0;
+}
+
+.bar:last-child {
+  height: 70%;
+  width: 9%;
+  left: auto;
+  right: 20%;
+  bottom: 20%;
+  transform: rotate(-30deg);
+  transform-origin: 50% 96%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar:last-child:before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 20%;
+  margin-bottom: 13px;
+  border-radius: 8px 8px 0 0;
+}
+
+.bar:last-child:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 70%;
+  border-radius: 16px 0 8px 8px/29px 0 8px 8px;
 }
 
 /* Netflix */
