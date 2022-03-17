@@ -772,64 +772,102 @@ body {
 }
 
 /* Photos */
-.photo-rectangle {
-  width: 45px;
-  height: 75px;
-  border-radius: 50px;
+.photos {
+	background-color: #fff;
+}
+
+.photos-icon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 50%;
+  overflow: hidden;
+  border-radius: 21.67%;
+  transform: translateY(-50%);
+}
+
+.petals {
+  height: 85%;
+  width: 27.5%;
   position: absolute;
-  top: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.photo-rectangle.orange {
-  background-color: #ff9900ce;
-  z-index: 1;
+.petals * {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
 }
 
-.photo-rectangle.yellow {
-  background-color: #ffea00bd;
-  transform-origin: 55% 100%;
+.petals *:nth-child(1) {
   transform: rotate(45deg);
-	z-index: 100;
+  transform-origin: center;
 }
 
-.photo-rectangle.green {
-  background-color: #7bd540da;
-  transform-origin: 55% 105%;
+.petals *:nth-child(1):before {
+  background-image: linear-gradient(to bottom, #fae528, #e2e037);
+}
+
+.petals *:nth-child(1):after {
+  background-image: linear-gradient(to bottom, #b58dc1, #9b8dc2);
+}
+
+.petals *:nth-child(2) {
   transform: rotate(90deg);
-	z-index: 101;
+  transform-origin: center;
 }
 
-.photo-rectangle.lightBlue {
-  background-color: #43a577d5;
-  transform-origin: 52.5% 105%;
+.petals *:nth-child(2):before {
+  background-image: linear-gradient(to bottom, #c7dc4a, #96cd68);
+}
+
+.petals *:nth-child(2):after {
+  background-image: linear-gradient(to bottom, #de7891, #ce8bbc);
+}
+
+.petals *:nth-child(3) {
   transform: rotate(135deg);
-		z-index: 102;
+  transform-origin: center;
 }
 
-.photo-rectangle.blue {
-  background-color: #469bc2d4;
-  transform-origin: 50% 105%;
+.petals *:nth-child(3):before {
+  background-image: linear-gradient(to bottom, #6cc28c, #6ebdbc);
+}
+
+.petals *:nth-child(3):after {
+  background-image: linear-gradient(to bottom, #f38259, #f16a69);
+}
+
+.petals *:nth-child(4) {
   transform: rotate(180deg);
-		z-index: 103;
+  transform-origin: center;
 }
 
-.photo-rectangle.purple {
-  background-color: #7b5ca5c4;
-  transform-origin: 47.5% 105%;
-  transform: rotate(225deg);
-	z-index: 104;
+.petals *:nth-child(4):before {
+  background-image: linear-gradient(to bottom, #6fb8e4, #849fd1);
 }
 
-.photo-rectangle.violet {
-  background-color: #ac467ece;
-  transform-origin: 45% 105%;
-  transform: rotate(270deg);
+.petals *:nth-child(4):after {
+  background-image: linear-gradient(to bottom, #fabf30, #f79e3c);
 }
 
-.photo-rectangle.red {
-  background-color: #db502dde;
-  transform-origin: 45% 102.5%;
-  transform: rotate(315deg);
+.petals *:before, .petals *:after {
+  content: "";
+  width: 100%;
+  height: 46.25%;
+  position: absolute;
+  top: 0;
+  border-radius: 24.75px;
+}
+
+.petals *:after {
+  top: auto;
+  bottom: 0;
 }
 
 /* Podcast */
