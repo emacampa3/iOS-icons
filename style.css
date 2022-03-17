@@ -181,6 +181,53 @@ body {
 	z-index: 4;
 }
 
+/* Files */
+.files {
+	background-color: #fff;
+}
+
+.front-side {
+	position: relative;
+	top: -25%;
+	width: 70%;
+	height: 45%;
+	border-radius: 5px 5px 10px 10px;
+	background: linear-gradient(#25bff7, #0f6de8 80%);
+	z-index: 100;
+}
+
+.white-paper {
+	position: relative;
+	top: -5px;
+	left: 5%;
+	width: 90%;
+	height: 5px;
+	background-color: #fff;
+	border-radius: 5px 5px 0 0;
+	z-index: 2;
+}
+
+.backside {
+	position: absolute;
+	top: 46px;
+	width: 70%;
+	height: 10%;
+	background-color: #35adfd;
+	border-radius: 10px 10px 0 0;
+	z-index: 0;
+}
+
+.side-notch {
+	position: absolute;
+	top: 40px;
+	left: 15%;
+	width: 20%;
+	height: 10%;
+	background-color: #35adfd;
+	border-radius: 10px 10px 0 0;
+	z-index: 0;
+}
+
 /* Calculator */
 .calculator {
 	background-color: #c2c2c2;
