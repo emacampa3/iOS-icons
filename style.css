@@ -1115,6 +1115,88 @@ body {
   left: 0;
 }
 
+/* iTunes */
+.itunes {
+	background-color: #fff;
+}
+
+.score-top {
+	position: absolute;
+  height: 35px;
+  width: 68px;
+	top: 20%;
+  background-image: radial-gradient(farthest-side at top left, #e1697c 80%, #61a3e3 240%);
+  transform: skew(0, -12deg);
+  transform-origin: 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.score-left, .score-right {
+  width: 14px;
+  height: 64px;
+  position: relative;
+  top: -32%;
+  left: -34px;
+  border-bottom-right-radius: 2px;
+}
+
+.score-left:before, .score-right:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 7px;
+  background: white;
+  border-radius: 0 0 5px 0;
+  transform: skew(0, -12deg);
+  transform-origin: 100% 0;
+}
+
+.score-left:after, .score-right:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 29px;
+  border-radius: 17px 12px 17px 16px/14.5px 12px 17px 14.5px;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  transform: rotate(-9deg);
+  transform-origin: 50% 50%;
+}
+
+.score-left {
+  background-image: linear-gradient(to bottom, #e1697c, #7071ec 65%);
+}
+
+.score-left:before {
+  top: -2px;
+}
+
+.score-left:after {
+  background-image: linear-gradient(to right, #825ae6, #7071ec);
+}
+
+.score-right {
+  background-image: linear-gradient(168deg, #e1697c -30%, #61a3e3 70%);
+  position: absolute;
+  right: 33%;
+  top: 30%;
+  left: auto;
+}
+
+.score-right:before {
+  width: 54px;
+  border-radius: 4px 4px 5px 0;
+}
+
+.score-right:after {
+  background-image: linear-gradient(to right, #5d95ec, #61a3e3);
+  bottom: -17px;
+}
+
 /* Netflix */
 .netflix {
   background-color: #1c1c1c;
