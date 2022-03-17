@@ -969,6 +969,152 @@ body {
   border-radius: 16px 0 8px 8px/29px 0 8px 8px;
 }
 
+/* Clock */
+.clock {
+  background-color: #1c1c1c;
+}
+
+.hours {
+  width: 156px;
+  height: 156px;
+  margin: 20px;
+  background-color: #fff;
+  position: relative;
+	font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.hours > * {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform-origin: bottom;
+  transform: translate(-50%, 0%);
+}
+
+.hours > *:nth-child(1) {
+  margin-left: 32px;
+  margin-top: 8px;
+}
+
+.hours > *:nth-child(2) {
+  margin-left: 55px;
+  margin-top: 32px;
+}
+
+.hours > *:nth-child(3) {
+  margin-left: 63px;
+  margin-top: 63px;
+}
+
+.hours > *:nth-child(4) {
+  margin-left: 55px;
+  margin-top: 95px;
+}
+
+.hours > *:nth-child(5) {
+  margin-left: 32px;
+  margin-top: 118px;
+}
+
+.hours > *:nth-child(6) {
+  margin-left: 0px;
+  margin-top: 126px;
+}
+
+.hours > *:nth-child(7) {
+  margin-left: -32px;
+  margin-top: 118px;
+}
+
+.hours > *:nth-child(8) {
+  margin-left: -55px;
+  margin-top: 95px;
+}
+
+.hours > *:nth-child(9) {
+  margin-left: -63px;
+  margin-top: 63px;
+}
+
+.hours > *:nth-child(10) {
+  margin-left: -55px;
+  margin-top: 32px;
+}
+
+.hours > *:nth-child(11) {
+  margin-left: -32px;
+  margin-top: 8px;
+}
+
+.hours > *:nth-child(12) {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.needle {
+  display: block;
+  background-color: #262626;
+  width: 2px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -2px;
+  transform-origin: 50% bottom;
+  border-radius: 1px;
+}
+
+.needle:after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  bottom: -4px;
+  left: -3px;
+  background-color: #262626;
+  border-radius: 50%;
+}
+
+.needle.hour {
+  height: 48px;
+}
+
+.needle.minute {
+  height: 70px;
+}
+
+.needle.second {
+  height: 60px;
+  width: 1px;
+  color: #a00;
+  background-color: currentcolor;
+  margin-left: -1px;
+}
+
+.needle.second:after {
+  width: 4px;
+  height: 4px;
+  background-color: currentcolor;
+  left: -2px;
+  bottom: -2px;
+}
+
+.needle.second:before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: currentcolor;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+}
+
 /* Netflix */
 .netflix {
   background-color: #1c1c1c;
