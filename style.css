@@ -771,6 +771,79 @@ body {
   background-color: #adcee3b3;
 }
 
+/* Mail */
+.mail {
+  background-image: linear-gradient(to bottom, #1e62f0, #1ad6fd);
+}
+
+.envelope {
+	top: 0%;
+  width: 67%;
+  height: 43%;
+  margin: 29% auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.envelope > * {
+  background-color: #fff;
+}
+
+.envelope .top {
+  width: 74%;
+  height: 116%;
+  background-image: linear-gradient(135deg, #1d80f3 50%, #1ba9f8 100%);
+  top: -86%;
+  left: 50%;
+  z-index: 2;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+
+.envelope .top, .envelope .top:before {
+  position: absolute;
+  border-bottom-right-radius: 16%;
+}
+
+.envelope .top:before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 91%;
+  height: 91%;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+}
+
+.envelope .bottom {
+  width: 67%;
+  height: 105%;
+  position: absolute;
+  bottom: -72%;
+  left: 50%;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+ .envelope .left,
+ .envelope .right {
+  width: 43%;
+  height: 65%;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+  position: absolute;
+  top: 1%;
+  left: 0;
+}
+
+.envelope .right {
+  transform: rotate(-45deg);
+  transform-origin: 100% 0;
+  left: auto;
+  right: 0;
+}
+
 /* Photos */
 .photos {
 	background-color: #fff;
