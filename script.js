@@ -13,4 +13,7 @@ const clock = () => {
 	calendarWeek.innerHTML = `${calWeek[calDayweek]}`
 	calendarDay.innerHTML = calDay
 }
-setInterval(clock, 1000)
+setInterval(
+	clock,
+	1000
+)
