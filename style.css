@@ -1362,9 +1362,10 @@ body {
 
 .score-top {
 	position: absolute;
+	top: 26%;
+	left: 36%;
   height: 35px;
   width: 68px;
-	top: 20%;
   background-image: radial-gradient(farthest-side at top left, #e1697c 80%, #61a3e3 240%);
   transform: skew(0, -12deg);
   transform-origin: 0 0;
@@ -1375,7 +1376,7 @@ body {
   width: 14px;
   height: 64px;
   position: relative;
-  top: -32%;
+  top: -38%;
   left: -34px;
   border-bottom-right-radius: 2px;
 }
@@ -1408,6 +1409,8 @@ body {
 }
 
 .score-left {
+	top: -30%;
+	left: -28px;
   background-image: linear-gradient(to bottom, #e1697c, #7071ec 65%);
 }
 
@@ -1422,8 +1425,8 @@ body {
 .score-right {
   background-image: linear-gradient(168deg, #e1697c -30%, #61a3e3 70%);
   position: absolute;
-  right: 33%;
   top: 30%;
+  right: 30%;
   left: auto;
 }
 
