@@ -608,10 +608,10 @@ body {
 
 .messenger-circle {
   position: relative;
-  top: -40px;
+  top: -30px;
   left: 30px;
   width: 150px;
-  height: 120px;
+  height: 140px;
 	border-radius: 50%;
   background: radial-gradient(circle farthest-corner at 35% 90%, #2394FE, transparent 70%),
 		radial-gradient(circle farthest-corner at 30% 90%, #FD656C, transparent 50%),
@@ -622,16 +622,16 @@ body {
 
 .messenger-triangle {
   position: relative;
-  left: -110px;
+  left: -114px;
   border-width: 30px;
   border-style: solid;
   border-color: #3b92e2 transparent transparent transparent;
-  transform: rotateZ(25deg) scaleX(0.65) scaleY(0.8);
+  transform: rotateZ(35deg) scaleX(0.65) scaleY(0.8);
 }
 
 .lightning {
 	position: relative;
-  top: 60px;
+  top: 70px;
   left: 70px;
 	width: 30px;
 	height: 12px;
